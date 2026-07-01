@@ -56,33 +56,31 @@
     <div class="experience-cards">
       <div class="exp-card animate-slide-left-exp">
         <div class="exp-card-left">
-          <div class="exp-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v2"/></svg>
+          <div class="exp-icon exp-icon-logo">
+            <span class="exp-logo-text">EXL</span>
           </div>
-          <div class="exp-company">FinAnalytics Solutions</div>
-          <div class="exp-badge">Remote Internship</div>
+          <div class="exp-company">EXL</div>
+          <div class="exp-badge">Internship</div>
           <div class="exp-location">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-            Remote
+            India &middot; Remote
           </div>
-          <div class="exp-duration">Mar 2026 &ndash; May 2026</div>
+          <div class="exp-duration">Jun 2026 &ndash; Present</div>
         </div>
         <div class="exp-card-right">
           <h3 class="exp-role">Data Analyst Intern</h3>
+          <p class="exp-description">Data Analyst Intern role focused on supporting data cleaning, analysis, KPI reporting, dashboard development, and business insights. The role involves using SQL, Excel, Python, and Power BI to work with business data, identify trends, prepare reports, and support data-driven decision-making across operations, finance, and risk-related projects.</p>
           <div class="exp-responsibilities">
             <h4>Key Responsibilities</h4>
             <ul>
-              <li class="exp-bullet">Performed credit-risk modeling and portfolio analytics using Python and SQL.</li>
-              <li class="exp-bullet">Designed automated data pipelines and ETL processes to improve data quality for real-time dashboards.</li>
-              <li class="exp-bullet">Built interactive Power BI dashboards to visualize loan approval rates and risk segmentation.</li>
-              <li class="exp-bullet">Collaborated with cross-functional teams using Git, JIRA, and Slack to prioritize tasks and deliver actionable insights.</li>
-            </ul>
-          </div>
-          <div class="exp-achievements-block">
-            <h4>Key Achievements</h4>
-            <ul>
-              <li class="exp-bullet achievement">Improved scorecard accuracy and reduced default prediction error through credit-risk modeling.</li>
-              <li class="exp-bullet achievement">Delivered stakeholder-ready dashboards that helped visualize risk segmentation, loan approval trends, and portfolio performance.</li>
+              <li class="exp-bullet">Clean, validate, and organize raw datasets for analysis.</li>
+              <li class="exp-bullet">Perform data analysis to identify trends, patterns, and performance gaps.</li>
+              <li class="exp-bullet">Build dashboards and reports using Power BI and Excel.</li>
+              <li class="exp-bullet">Write SQL queries to extract and analyze business data.</li>
+              <li class="exp-bullet">Support KPI tracking, business reporting, and performance analysis.</li>
+              <li class="exp-bullet">Prepare insights and summaries for stakeholders.</li>
+              <li class="exp-bullet">Assist in automating reports and improving data accuracy.</li>
+              <li class="exp-bullet">Collaborate with teams to understand business requirements and deliver actionable insights.</li>
             </ul>
           </div>
         </div>

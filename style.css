@@ -118,7 +118,10 @@ body { font-family:'Inter',sans-serif; color:var(--text-dark); background:var(--
 .exp-location { display:flex; align-items:center; gap:4px; color:rgba(255,255,255,0.55); font-size:0.8rem; }
 .exp-duration { color:rgba(255,255,255,0.45); font-size:0.8rem; font-style:italic; }
 .exp-card-right { padding:2rem; }
-.exp-role { font-size:1.4rem; font-weight:800; color:var(--navy); margin-bottom:1.5rem; letter-spacing:-0.01em; }
+.exp-icon-logo { background:rgba(255,255,255,0.08); border:1px solid rgba(201,162,39,0.25); }
+.exp-logo-text { font-size:0.85rem; font-weight:800; letter-spacing:0.08em; color:var(--gold-light); line-height:1; }
+.exp-role { font-size:1.4rem; font-weight:800; color:var(--navy); margin-bottom:1rem; letter-spacing:-0.01em; }
+.exp-description { color:var(--text-mid); font-size:0.95rem; line-height:1.75; margin-bottom:1.5rem; }
 .exp-responsibilities h4,.exp-achievements-block h4 { font-size:0.78rem; font-weight:700; color:var(--gold); letter-spacing:0.08em; text-transform:uppercase; margin-bottom:0.75rem; }
 .exp-responsibilities ul,.exp-achievements-block ul { list-style:none; padding:0; }
 .exp-bullet { position:relative; padding-left:1.2rem; color:var(--text-mid); font-size:0.92rem; line-height:1.7; margin-bottom:0.5rem; }
