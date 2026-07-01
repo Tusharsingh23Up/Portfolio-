@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <title>Tushar Singh | Data Analyst &amp; Business Analyst Portfolio</title>
+  <meta name="description" content="Tushar Singh - Data Analyst, Business Analyst, Power BI Developer, SQL and Python Analyst. Portfolio showcasing projects, skills and certifications."/>
+  <meta property="og:title" content="Tushar Singh | Data Analyst Portfolio"/>
+  <meta property="og:description" content="Turning raw datasets into practical business insights."/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<nav class="navbar" id="navbar">
+  <div class="nav-container">
+    <a href="#hero" class="nav-logo">
+      <img src="profile_photo.png" alt="TS" class="logo-initials" style="object-fit: cover; border: 1.5px solid var(--gold);"/>
+      <span class="logo-name">Tushar Singh</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#hero" class="nav-link">Home</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#experience" class="nav-link">Experience</a></li>
+      <li><a href="#education" class="nav-link">Education</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#certifications" class="nav-link">Certifications</a></li>
+      <li><a href="#achievements" class="nav-link">Achievements</a></li>
+      <li><a href="#contact" class="nav-link nav-cta">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<section class="hero" id="hero">
+  <div class="hero-particles" id="heroParticles"></div>
+  <div class="hero-container">
+    <div class="hero-content">
+      <div class="hero-badge animate-fade-in-up">
+        <span class="hero-logo-initials">TS</span>
+        <span>Portfolio</span>
+      </div>
+      <h1 class="hero-name animate-fade-in-up">Tushar Singh</h1>
+      <div class="hero-designations animate-fade-in-up">
+        <span class="designation-item">Data Analyst</span>
+        <span class="designation-sep">|</span>
+        <span class="designation-item">Business Analyst</span>
+        <span class="designation-sep">|</span>
+        <span class="designation-item">Power BI Developer</span>
+        <span class="designation-sep">|</span>
+        <span class="designation-item">SQL &amp; Python Analyst</span>
+      </div>
+      <p class="hero-intro animate-fade-in-up">I am Tushar Singh, a final-year B.Tech student in Data Analysis with hands-on experience in SQL, Python, Excel, Power BI, dashboarding, and business reporting. I have completed a remote Data Analyst internship focused on credit-risk modeling, KPI reporting, portfolio analytics, and data-driven decision-making. My work combines analytical thinking, financial domain understanding, and clear data storytelling to turn raw datasets into practical business insights. I enjoy building dashboards, cleaning complex data, and using models to support smarter business decisions. Explore my work to see how I use analytics to solve real-world business problems.</p>
+      <div class="hero-cta animate-slide-up">
+        <a href="#about" class="btn btn-primary">Learn More About Me</a>
+        <a href="#contact" class="btn btn-outline">Get In Touch</a>
+      </div>
+      <div class="hero-socials">
+        <a href="https://github.com/Tusharsingh23Up" target="_blank" rel="noopener" class="social-icon animate-pop" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/in/tusharsingh-analytics" target="_blank" rel="noopener" class="social-icon animate-pop" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        </a>
+        <a href="mailto:tusharsingh09355@gmail.com" class="social-icon animate-pop" aria-label="Email">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="hero-scroll-indicator"><div class="scroll-dot"></div></div>
+</section>
+
+<section class="section about-section" id="about">
+  <div class="section-container">
+    <div class="section-header animate-on-scroll">
+      <span class="section-tag">About Me</span>
+      <h2 class="section-title">Who I Am</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="about-grid">
+      <div class="about-photo-col animate-slide-left">
+        <div class="about-photo-wrapper">
+          <div class="about-photo-frame">
+            <img src="profile_photo.png" alt="Tushar Singh - Data Analyst" class="about-photo"
+                 onerror="this.parentElement.innerHTML='&lt;div class=&quot;photo-placeholder&quot;&gt;&lt;span class=&quot;photo-initials&quot;&gt;TS&lt;/span&gt;&lt;/div&gt;'" />
+          </div>
+          <div class="about-photo-glow"></div>
+        </div>
+        <div class="about-cta-buttons">
+          <a href="#experience" class="about-btn">Work Experience</a>
+          <a href="#education" class="about-btn">Education</a>
+          <a href="#projects" class="about-btn">Projects</a>
+          <a href="#skills" class="about-btn">Skills</a>
+          <a href="#certifications" class="about-btn">Certifications</a>
+        </div>
+      </div>
+      <div class="about-content-col animate-slide-right">
+        <p class="about-summary">I am a Data Analyst and Business Analyst focused on transforming data into clear, actionable business insights. I am currently pursuing a B.Tech in Data Analysis from Bennett University, where I have built strong foundations in Python, SQL, Data Analytics, Financial Analysis, Business Analysis, and Financial Modeling. My experience includes a remote Data Analyst internship at FinAnalytics Solutions, where I worked on credit-risk modeling, portfolio analytics, automated data pipelines, and Power BI dashboards. I have also completed multiple self-directed analytics projects involving credit-risk scorecards, financial ratio analysis, KPI dashboards, and interactive business reporting. I work with tools such as Python, SQL, Excel, Power BI, Jupyter Notebooks, Git, and Streamlit. What makes me stand out is my ability to combine technical analysis with business communication, helping stakeholders understand trends, risks, and opportunities through clean dashboards and executive-ready insights.</p>
+        <div class="mission-vision-grid">
+          <div class="mv-card mission-card animate-flip-in">
+            <div class="mv-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+            </div>
+            <h3>Mission</h3>
+            <p>To use data analytics, business analysis, and visualization to help organizations make faster, clearer, and more confident decisions.</p>
+          </div>
+          <div class="mv-card vision-card animate-flip-in">
+            <div class="mv-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+            </div>
+            <h3>Vision</h3>
+            <p>To become a high-impact Data Analyst and Business Analyst who builds reliable analytics systems, meaningful dashboards, and business insights that create measurable value.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section experience-section" id="experience">
+  <div class="section-container">
+    <div class="section-header animate-on-scroll">
+      <span class="section-tag">Career</span>
+      <h2 class="section-title">Work Experience</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="experience-cards">
+      <div class="exp-card animate-slide-left-exp">
+        <div class="exp-card-left">
+          <div class="exp-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v2"/></svg>
+          </div>
+          <div class="exp-company">FinAnalytics Solutions</div>
+          <div class="exp-badge">Remote Internship</div>
+          <div class="exp-location">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            Remote
+          </div>
+          <div class="exp-duration">Mar 2026 &ndash; May 2026</div>
+        </div>
+        <div class="exp-card-right">
+          <h3 class="exp-role">Data Analyst Intern</h3>
+          <div class="exp-responsibilities">
+            <h4>Key Responsibilities</h4>
+            <ul>
+              <li class="exp-bullet">Performed credit-risk modeling and portfolio analytics using Python and SQL.</li>
+              <li class="exp-bullet">Designed automated data pipelines and ETL processes to improve data quality for real-time dashboards.</li>
+              <li class="exp-bullet">Built interactive Power BI dashboards to visualize loan approval rates and risk segmentation.</li>
+              <li class="exp-bullet">Collaborated with cross-functional teams using Git, JIRA, and Slack to prioritize tasks and deliver actionable insights.</li>
+            </ul>
+          </div>
+          <div class="exp-achievements-block">
+            <h4>Key Achievements</h4>
+            <ul>
+              <li class="exp-bullet achievement">Improved scorecard accuracy and reduced default prediction error through credit-risk modeling.</li>
+              <li class="exp-bullet achievement">Delivered stakeholder-ready dashboards that helped visualize risk segmentation, loan approval trends, and portfolio performance.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section education-section" id="education">
+  <div class="section-container">
+    <div class="section-header animate-on-scroll">
+      <span class="section-tag">Academic</span>
+      <h2 class="section-title">Education</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="education-cards">
+      <div class="edu-card animate-drop-in">
+        <div class="edu-card-accent"></div>
+        <div class="edu-card-content">
+          <div class="edu-header">
+            <div class="edu-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5-10-5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+            </div>
+            <div class="edu-meta">
+              <h3 class="edu-degree">Bachelor of Technology - BTech, Financial Data Analyst</h3>
+              <div class="edu-institution">Bennett University</div>
+              <div class="edu-duration-mode">
+                <span class="edu-duration">Aug 2023 &ndash; May 2027</span>
+                <span class="edu-mode-badge">Full-time</span>
+              </div>
+            </div>
+          </div>
+          <div class="edu-highlights">
+            <h4>Key Highlights</h4>
+            <ul>
+              <li class="edu-bullet">Core focus on Python (Programming Language) and SQL for data analysis.</li>
+              <li class="edu-bullet">Building strong foundations in Data Analytics, Business Analysis, and Financial Modeling.</li>
+              <li class="edu-bullet">Developing practical project experience in credit-risk modeling and KPI reporting dashboards.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section projects-section" id="projects">
+  <div class="section-container">
+    <div class="section-header animate-on-scroll">
+      <span class="section-tag">Portfolio</span>
+      <h2 class="section-title">Projects</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="projects-list">
+
+      <div class="project-card animate-project-in">
+        <div class="project-left">
+          <div class="project-number">01</div>
+          <div class="project-type-badge">Remote Analytics Project</div>
+          <div class="project-duration">Jun 2025 &ndash; Aug 2025</div>
+        </div>
+        <div class="project-right">
+          <h3 class="project-title">Credit-Risk Modeling &amp; Scorecard Development</h3>
+          <p class="project-desc">This project focused on analyzing credit bureau and transactional datasets to predict default risk across customer segments. It involved feature engineering, model development, validation, and dashboard deployment for credit-risk monitoring.</p>
+          <div class="project-outcomes">
+            <h4>Key Outcomes</h4>
+            <div class="outcomes-grid">
+              <div class="outcome-box">Engineered predictive features using Weight of Evidence and Information Value.</div>
+              <div class="outcome-box">Trained and validated logistic regression and gradient boosting models.</div>
+              <div class="outcome-box">Achieved ROC-AUC &gt; 0.85 for default-risk prediction.</div>
+              <div class="outcome-box">Built a Power BI dashboard to monitor model performance and support real-time credit policy decisions.</div>
+            </div>
+          </div>
+          <div class="project-tech">
+            <span class="tech-pill">Python</span><span class="tech-pill">SQL</span><span class="tech-pill">Power BI</span>
+            <span class="tech-pill">Logistic Regression</span><span class="tech-pill">Gradient Boosting</span>
+            <span class="tech-pill">WOE / IV</span><span class="tech-pill">Credit Risk Analytics</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card animate-project-in">
+        <div class="project-left">
+          <div class="project-number">02</div>
+          <div class="project-type-badge">Financial Analytics Project</div>
+          <div class="project-duration">Jan 2026 &ndash; Feb 2026</div>
+        </div>
+        <div class="project-right">
+          <h3 class="project-title">End-to-End Financial Analyst Case Study</h3>
+          <p class="project-desc">This project involved cleaning and analyzing financial data to understand company performance through ratio analysis, benchmarking, and trend analysis. The outcome was a set of KPI dashboards and executive reports summarizing business performance, risks, and recommendations.</p>
+          <div class="project-outcomes">
+            <h4>Key Outcomes</h4>
+            <div class="outcomes-grid">
+              <div class="outcome-box">Cleaned financial data using SQL and Excel.</div>
+              <div class="outcome-box">Conducted ratio analysis, benchmarking, and trend analysis for peer companies.</div>
+              <div class="outcome-box">Created KPI dashboards covering liquidity, profitability, and leverage metrics.</div>
+              <div class="outcome-box">Prepared executive-level reports summarizing trends, risks, and business recommendations.</div>
+            </div>
+          </div>
+          <div class="project-tech">
+            <span class="tech-pill">SQL</span><span class="tech-pill">Excel</span><span class="tech-pill">Power BI</span>
+            <span class="tech-pill">Financial Analysis</span><span class="tech-pill">KPI Dashboards</span><span class="tech-pill">Data Storytelling</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card animate-project-in">
+        <div class="project-left">
+          <div class="project-number">03</div>
+          <div class="project-type-badge">Self-Directed Analytics</div>
+          <div class="project-duration">2024 &ndash; 2025</div>
+        </div>
+        <div class="project-right">
+          <h3 class="project-title">Analytics Workbench &amp; KPI Dashboard</h3>
+          <p class="project-desc">This project focused on building an analytics workbench to ingest, clean, merge, and analyze multi-company financial statement data. It included KPI modeling, dashboard development, and real-time insight delivery using modern analytics tools.</p>
+          <div class="project-outcomes">
+            <h4>Key Outcomes</h4>
+            <div class="outcomes-grid">
+              <div class="outcome-box">Developed an analytics workbench to process multi-company financial statements.</div>
+              <div class="outcome-box">Used Python and SQL to ingest, clean, and merge structured financial data.</div>
+              <div class="outcome-box">Designed data models to calculate KPIs across revenue growth, expense ratios, and cash flow metrics.</div>
+              <div class="outcome-box">Built interactive dashboards using Power BI and Streamlit.</div>
+            </div>
+          </div>
+          <div class="project-tech">
+            <span class="tech-pill">Python</span><span class="tech-pill">SQL</span><span class="tech-pill">Power BI</span>
+            <span class="tech-pill">Streamlit</span><span class="tech-pill">Excel</span><span class="tech-pill">KPI Modeling</span><span class="tech-pill">Financial Statements</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="section skills-section" id="skills">
+  <div class="section-container">
+    <div class="section-header animate-on-scroll">
+      <span class="section-tag">Expertise</span>
+      <h2 class="section-title">Skills</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="skills-grid">
+
+      <div class="skill-category animate-skill-card">
+        <div class="skill-category-header">
+          <div class="skill-cat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg></div>
+          <h3>Data Analytics &amp; Statistics</h3>
+        </div>
+        <div class="skill-bars">
+          <div class="skill-item"><div class="skill-label"><span>Data Cleaning</span><span class="skill-pct" data-pct="90">0%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="90"></div></div></div>
+          <div class="skill-item"><div class="skill-label"><span>Exploratory Data Analysis</span><span class="skill-pct" data-pct="88">0%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="88"></div></div></div>
+          <div class="skill-item"><div class="skill-label"><span>Hypothesis Testing</span><span class="skill-pct" data-pct="80">0%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="80"></div></div></div>
+          <div class="skill-item"><div class="skill-label"><span>Regression</span><span class="skill-pct" data-pct="82">0%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="82"></div></div></div>
+          <div class="skill-item"><div class="skill-label"><span>Forecasting</span><span class="skill-pct" data-pct="78">0%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="78"></div></div></div>
+          <div class="skill-item"><div class="skill-label"><span>Time-Series Analysis</span><span class="skill-pct" data-pct="75">0%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="75"></div></div></div>
+          <div class="skill-item"><div class="skill-label"><span>A/B Testing</span><span class="skill-pct" data-pct="75">0%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="75"></div></div></div>
+        </div>
+      </div>
+
+      <div class="skill-category animate-skill-card">
+        <div class="skill-category-header">
+          <div class="skill-cat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg></div>
+          <h3>Programming &amp; Tools</h3>
+        </div>
+        <div class="skill-bars">
+          <div class="skill-item"><div class="skill-label"><span>Python</span><span class="skill-pct" data-pct="88">0%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="88"></div></div></div>
+          <div class="skill-item"><div class="skill-label"><span>pandas</span><span class="skill-pct" data-pct="86">0%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="86"></div></div></div>
+          <div class="skill-item"><div class="skill-label"><span>NumPy</span><span class="skill-pct" data-pct="82">0%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="82"></div></div></div>
+          <div class="skill-item"><div class="skill-label"><span>scikit-learn</span><span class="skill-pct" data-pct="80">0%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="80"></div></div></div>
+          <div class="skill-item"><div class="skill-label"><span>SQL</span><span class="skill-pct" data-pct="88">0%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="88"></div></div></div>
+          <div class="skill-item"><div class="skill-label"><span>Excel</span><span class="skill-pct" data-pct="90">0%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="90"></div></div></div>
+          <div class="skill-item"><div class="skill-label"><span>Jupyter Notebooks</span><span class="skill-pct" data-pct="85">0%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="85"></div></div></div>
+          <div class="skill-item"><div class="skill-label"><span>Git</span><span class="skill-pct" data-pct="78">0%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="78"></div></div></div>
+        </div>
+      </div>
+
+      <div class="skill-category animate-skill-card">
+        <div class="skill-category-header">
+          <div class="skill-cat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg></div>
+          <h3>Business Intelligence &amp; Visualization</h3>
+        </div>
+        <div class="skill-bars">
+          <div class="skill-item"><div class="skill-label"><span>Power BI</span><span class="skill-pct" data-pct="90">0%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="90"></div></div></div>
+          <div class="skill-item"><div class="skill-label"><span>KPI Dashboards</span><span class="skill-pct" data-pct="88">0%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="88"></div></div></div>
+          <div class="skill-item"><div class="skill-label"><span>Dashboard Design</span><span class="skill-pct" data-pct="86">0%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="86"></div></div></div>
+          <div class="skill-item"><div class="skill-label"><span>Streamlit</span><span class="skill-pct" data-pct="78">0%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="78"></div></div></div>
+          <div class="skill-item"><div class="skill-label"><span>Data Storytelling</span><span class="skill-pct" data-pct="85">0%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="85"></div></div></div>
+        </div>
+      </div>
+
+      <div class="skill-category animate-skill-card">
+        <div class="skill-category-header">
+          <div class="skill-cat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5M2 12l10 5 10-5"/></svg></div>
+          <h3>Machine Learning &amp; Modeling</h3>
+        </div>
+        <div class="skill-bars">
+          <div class="skill-item"><div class="skill-label"><span>Logistic Regression</span><span class="skill-pct" data-pct="84">0%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="84"></div></div></div>
+          <div class="skill-item"><div class="skill-label"><span>Random Forest</span><span class="skill-pct" data-pct="78">0%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="78"></div></div></div>
+          <div class="skill-item"><div class="skill-label"><span>Gradient Boosting</span><span class="skill-pct" data-pct="80">0%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="80"></div></div></div>
+          <div class="skill-item"><div class="skill-label"><span>Scorecard Development</span><span class="skill-pct" data-pct="82">0%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="82"></div></div></div>
+          <div class="skill-item"><div class="skill-label"><span>Credit-Risk Modeling</span><span class="skill-pct" data-pct="84">0%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="84"></div></div></div>
+        </div>
+      </div>
+
+      <div class="skill-category animate-skill-card">
+        <div class="skill-category-header">
+          <div class="skill-cat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg></div>
+          <h3>Business &amp; Financial Analysis</h3>
+        </div>
+        <div class="skill-bars">
+          <div class="skill-item"><div class="skill-label"><span>Business Analysis</span><span class="skill-pct" data-pct="85">0%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="85"></div></div></div>
+          <div class="skill-item"><div class="skill-label"><span>Financial Analysis</span><span class="skill-pct" data-pct="84">0%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="84"></div></div></div>
+          <div class="skill-item"><div class="skill-label"><span>Financial Modeling</span><span class="skill-pct" data-pct="80">0%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="80"></div></div></div>
+          <div class="skill-item"><div class="skill-label"><span>Risk Analytics</span><span class="skill-pct" data-pct="84">0%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="84"></div></div></div>
+          <div class="skill-item"><div class="skill-label"><span>Executive Reporting</span><span class="skill-pct" data-pct="82">0%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="82"></div></div></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="section certifications-section" id="certifications">
+  <div class="section-container">
+    <div class="section-header animate-on-scroll">
+      <span class="section-tag">Credentials</span>
+      <h2 class="section-title">Certifications</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="cert-grid">
+
+      <div class="cert-card animate-cert-cascade">
+        <div class="cert-image-wrapper">
+          <img src="certificates/google_data_analytics_certificate.jpg" alt="Google Data Analytics Professional Certificate" class="cert-image"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/>
+          <div class="cert-img-placeholder" style="display:none">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+            <span>Certificate Image</span>
+          </div>
+        </div>
+        <div class="cert-body">
+          <div class="cert-provider-badge google">Coursera &middot; Google</div>
+          <h3 class="cert-title">Google Data Analytics Professional Certificate</h3>
+          <div class="cert-meta">
+            <span class="cert-year">2025</span>
+            <span class="cert-type-badge">Data Analytics</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="cert-card animate-cert-cascade">
+        <div class="cert-image-wrapper">
+          <img src="certificates/power_bi_data_analyst_certificate.jpg" alt="Microsoft Certified: Power BI Data Analyst Associate" class="cert-image"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/>
+          <div class="cert-img-placeholder" style="display:none">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+            <span>Certificate Image</span>
+          </div>
+        </div>
+        <div class="cert-body">
+          <div class="cert-provider-badge microsoft">Microsoft</div>
+          <h3 class="cert-title">Microsoft Certified: Power BI Data Analyst Associate</h3>
+          <div class="cert-meta">
+            <span class="cert-year">2026</span>
+            <span class="cert-type-badge">Business Intelligence</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="cert-card animate-cert-cascade">
+        <div class="cert-image-wrapper">
+          <img src="certificates/financial_risk_modeling_certificate.jpg" alt="Financial Risk Modeling Specialization" class="cert-image"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/>
+          <div class="cert-img-placeholder" style="display:none">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+            <span>Certificate Image</span>
+          </div>
+        </div>
+        <div class="cert-body">
+          <div class="cert-provider-badge specialization">Specialization</div>
+          <h3 class="cert-title">Financial Risk Modeling Specialization</h3>
+          <div class="cert-meta">
+            <span class="cert-year">2025</span>
+            <span class="cert-type-badge">Risk Analytics</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="section achievements-section" id="achievements">
+  <div class="section-container">
+    <div class="section-header animate-on-scroll">
+      <span class="section-tag">Recognition</span>
+      <h2 class="section-title">Achievements &amp; Recognition</h2>
+      <div class="section-line"></div>
+      <p class="section-subtitle">A growing record of analytics projects, certifications, and practical experience across data analysis, business intelligence, financial analytics, and risk modeling.</p>
+    </div>
+    <div class="stat-counters">
+      <div class="stat-item animate-stat"><div class="stat-number" data-target="1" data-suffix="+">0</div><div class="stat-label">Years Experience</div></div>
+      <div class="stat-item animate-stat"><div class="stat-number" data-target="3" data-suffix="+">0</div><div class="stat-label">Certifications</div></div>
+      <div class="stat-item animate-stat"><div class="stat-number" data-target="3" data-suffix="">0</div><div class="stat-label">Projects</div></div>
+      <div class="stat-item animate-stat"><div class="stat-number" data-target="0" data-suffix="">0</div><div class="stat-label">Awards</div></div>
+    </div>
+    <div class="achievements-grid">
+
+      <div class="ach-card animate-ach-zoom">
+        <div class="ach-image-wrapper">
+          <img src="achievements/internship_completion.jpg" alt="Internship Completion" class="ach-image"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/>
+          <div class="ach-img-placeholder" style="display:none">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11"/></svg>
+          </div>
+          <div class="ach-category-badge professional">Professional</div>
+        </div>
+        <div class="ach-body">
+          <div class="ach-year">2026</div>
+          <h3 class="ach-title">Data Analyst Intern Experience</h3>
+          <div class="ach-institution">FinAnalytics Solutions</div>
+          <p class="ach-desc">Completed a remote data analyst internship focused on credit-risk modeling, portfolio analytics, automated ETL processes, Power BI dashboards, and stakeholder reporting.</p>
+        </div>
+      </div>
+
+      <div class="ach-card animate-ach-zoom">
+        <div class="ach-image-wrapper">
+          <img src="achievements/credit_risk_project.jpg" alt="Credit Risk Project" class="ach-image"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/>
+          <div class="ach-img-placeholder" style="display:none">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11"/></svg>
+          </div>
+          <div class="ach-category-badge academic">Academic / Project</div>
+        </div>
+        <div class="ach-body">
+          <div class="ach-year">2025</div>
+          <h3 class="ach-title">Credit-Risk Scorecard Development</h3>
+          <div class="ach-institution">Self-Directed Project</div>
+          <p class="ach-desc">Built and validated credit-risk models using logistic regression and gradient boosting, achieving ROC-AUC &gt; 0.85 for default-risk prediction.</p>
+        </div>
+      </div>
+
+      <div class="ach-card animate-ach-zoom">
+        <div class="ach-image-wrapper">
+          <img src="achievements/analytics_portfolio.jpg" alt="Analytics Portfolio" class="ach-image"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/>
+          <div class="ach-img-placeholder" style="display:none">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11"/></svg>
+          </div>
+          <div class="ach-category-badge professional">Academic / Professional</div>
+        </div>
+        <div class="ach-body">
+          <div class="ach-year">2024 &ndash; 2026</div>
+          <h3 class="ach-title">Analytics Project Portfolio</h3>
+          <div class="ach-institution">Self-Directed Work</div>
+          <p class="ach-desc">Developed multiple analytics projects covering financial analysis, KPI dashboards, Power BI reporting, Streamlit dashboards, and Python-SQL analytics workflows.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="section contact-section" id="contact">
+  <div class="section-container">
+    <div class="section-header animate-on-scroll">
+      <span class="section-tag">Get In Touch</span>
+      <h2 class="section-title">Let&rsquo;s Turn Data Into Decisions</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-form-card animate-contact-left">
+        <h3 class="contact-form-title">Send Me a Message</h3>
+        <form class="contact-form" id="contactForm">
+          <div class="form-field">
+            <input type="text" id="formName" name="name" required autocomplete="off" placeholder=" "/>
+            <label for="formName" class="float-label">Full Name</label>
+            <div class="field-underline"></div>
+          </div>
+          <div class="form-field">
+            <input type="email" id="formEmail" name="email" required autocomplete="off" placeholder=" "/>
+            <label for="formEmail" class="float-label">Email Address</label>
+            <div class="field-underline"></div>
+          </div>
+          <div class="form-field">
+            <input type="text" id="formSubject" name="subject" required autocomplete="off" placeholder=" "/>
+            <label for="formSubject" class="float-label">Subject</label>
+            <div class="field-underline"></div>
+          </div>
+          <div class="form-field form-field-textarea">
+            <textarea id="formMessage" name="message" required rows="5" placeholder=" "></textarea>
+            <label for="formMessage" class="float-label">Message</label>
+            <div class="field-underline"></div>
+          </div>
+          <button type="submit" class="send-btn" id="sendBtn">
+            <span class="btn-text">Send Message</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+            <div class="btn-shimmer"></div>
+          </button>
+        </form>
+      </div>
+      <div class="contact-info-panel animate-contact-right">
+        <h3 class="contact-info-title">Contact Information</h3>
+        <div class="contact-info-items">
+          <a class="contact-info-row" href="mailto:tusharsingh09355@gmail.com">
+            <div class="ci-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg></div>
+            <div class="ci-text"><span class="ci-label">Email</span><span class="ci-value">tusharsingh09355@gmail.com</span></div>
+          </a>
+          <a class="contact-info-row" href="tel:7980658742">
+            <div class="ci-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg></div>
+            <div class="ci-text"><span class="ci-label">Phone</span><span class="ci-value">7980658742</span></div>
+          </a>
+          <div class="contact-info-row">
+            <div class="ci-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg></div>
+            <div class="ci-text"><span class="ci-label">Location</span><span class="ci-value">Jamshedpur, Jharkhand, India</span></div>
+          </div>
+          <a class="contact-info-row" href="https://www.linkedin.com/in/tusharsingh-analytics" target="_blank" rel="noopener">
+            <div class="ci-icon linkedin-ci"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></div>
+            <div class="ci-text"><span class="ci-label">LinkedIn</span><span class="ci-value">tusharsingh-analytics</span></div>
+          </a>
+          <a class="contact-info-row" href="https://github.com/Tusharsingh23Up" target="_blank" rel="noopener">
+            <div class="ci-icon github-ci"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg></div>
+            <div class="ci-text"><span class="ci-label">GitHub</span><span class="ci-value">Tusharsingh23Up</span></div>
+          </a>
+          <a class="contact-info-row" href="https://tushar-finance-forge.lovable.app" target="_blank" rel="noopener">
+            <div class="ci-icon portfolio-ci"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 010 20M12 2a15.3 15.3 0 000 20"/></svg></div>
+            <div class="ci-text"><span class="ci-label">Portfolio</span><span class="ci-value">tushar-finance-forge.lovable.app</span></div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-brand">
+      <span class="footer-logo-initials">TS</span>
+      <span class="footer-name">Tushar Singh</span>
+    </div>
+    <p class="footer-tagline">Data-driven insights. Clear dashboards. Smarter business decisions.</p>
+    <div class="footer-socials">
+      <a href="https://github.com/Tusharsingh23Up" target="_blank" rel="noopener" class="footer-social-icon" aria-label="GitHub">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+      </a>
+      <a href="https://www.linkedin.com/in/tusharsingh-analytics" target="_blank" rel="noopener" class="footer-social-icon" aria-label="LinkedIn">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+      </a>
+      <a href="mailto:tusharsingh09355@gmail.com" class="footer-social-icon" aria-label="Email">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+      </a>
+    </div>
+    <p class="footer-copy">&copy; 2026 Tushar Singh. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
